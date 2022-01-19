@@ -9,4 +9,5 @@ import Foundation
 
 protocol HomeUseCaseFunctions {
     func addImdb250Movies(completionHandler: @escaping (Result<HomeModel, Error>) -> Void)
+    func addImdb250Series(completionHandler: @escaping (Result<HomeModel, Error>) -> Void)
 }

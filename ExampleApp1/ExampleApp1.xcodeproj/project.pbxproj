@@ -26,6 +26,7 @@
 		E38D920A278AED3F00D3E7C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38D91F8278AED3F00D3E7C5 /* AppDelegate.swift */; };
 		E38D920B278AED3F00D3E7C5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38D91F9278AED3F00D3E7C5 /* SceneDelegate.swift */; };
 		E38D920D278AF7A600D3E7C5 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38D920C278AF7A600D3E7C5 /* File.swift */; };
+		E3E292A9279824A000E961BD /* TableView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E292A8279824A000E961BD /* TableView+Ext.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		E38D91F8278AED3F00D3E7C5 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E38D91F9278AED3F00D3E7C5 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E38D920C278AF7A600D3E7C5 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		E3E292A8279824A000E961BD /* TableView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			children = (
 				E38D91E0278AED3F00D3E7C5 /* Storyboarded.swift */,
 				E38D91E1278AED3F00D3E7C5 /* Alerts+Ext.swift */,
+				E3E292A8279824A000E961BD /* TableView+Ext.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E38D9205278AED3F00D3E7C5 /* HomeUseCase.swift in Sources */,
+				E3E292A9279824A000E961BD /* TableView+Ext.swift in Sources */,
 				E38D9200278AED3F00D3E7C5 /* DetailsModel.swift in Sources */,
 				E38D91FF278AED3F00D3E7C5 /* DetailsUseCase.swift in Sources */,
 				E38D9201278AED3F00D3E7C5 /* DetailsViewModel.swift in Sources */,
